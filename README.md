@@ -105,8 +105,8 @@ Outputs will be saved in the corresponding results folders.
 
 This notebook is used to run the **Dusk Till Dawn (DTD)** pretrained model on:
 
-- the **DTD dataset** (nighttime RobotCar sequences)  
-- the **KITTI stereo dataset**
+- the **DTD dataset** (nighttime RobotCar sequences) -  https://github.com/madhubabuv/dtd
+- the **KITTI stereo dataset** - https://www.cvlibs.net/datasets/kitti/index.php
 
 It extracts predicted disparity maps and saves them for further comparison.
 
