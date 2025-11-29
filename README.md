@@ -175,6 +175,7 @@ This notebook is used to evaluate the FNO deep learning method on:
    The training files for this are in the lab system in the folder TPA2_Reva. The colab notebook uses the trained model.
 
    Github repo for reference: https://github.com/neuraloperator/neuraloperator/tree/main/doc
+   Required dependency installation commands included in the notebook.
 
    ## 7. Running `Evaluation_KITTI_FastACVNet.ipynb`
 
@@ -192,6 +193,7 @@ This notebook is used to evaluate the FNO deep learning method on:
    The training files for this are in the lab system in the folder TPA2_Reva. The colab notebook uses the trained model.
 
    Github repo for reference: https://github.com/gangweix/Fast-ACVNet
+   Required dependency installation commands included in the notebook.
 
 ## 8. Notes
 
