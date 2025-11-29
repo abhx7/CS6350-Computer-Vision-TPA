@@ -130,8 +130,8 @@ kitti_right_path: "/path/to/KITTI/image_3/"
 3. Select the mode to run:
 
 ```yaml
-mode: "robotcar"   # runs DTD on nighttime RobotCar images
-mode: "kitti"      # runs DTD on KITTI stereo pairs
+file_path = "dtd_predictions.npy"      # runs DTD on nighttime RobotCar images
+file_path = "dtd_predictions_own.npy"  # runs DTD on KITTI stereo pairs    
 ```
 
 4. Run all cells to generate:
