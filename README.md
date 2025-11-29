@@ -18,12 +18,13 @@ This repository contains two Jupyter notebooks used for the TPA-2 course project
 
 Install the following:
 
-Python 3.x  
+Python 3.10+
 Jupyter Notebook or JupyterLab  
 OpenCV (cv2)  
 NumPy  
 Matplotlib  
-PyTorch (required only for deep models)
+
+For deep learning methods, check requirements of the repo cloned from.
 
 Install packages:
 
@@ -121,7 +122,7 @@ jupyter notebook extract_predictions.ipynb
 2. Set the paths for pretrained DTD weights and dataset folders:
 
 ```yaml
-number_file = "datasets/robotcar/files/2014-12-16-18-44-24_numbered.txt" # custom folder present in this repo
+number_file = "datasets/robotcar/files/2014-12-16-18-44-24_numbered.txt" # custom file present in this repo, put it in appropriate folder
 image_dir = "datasets/robotcar/2014-12-16-18-44-24/stereo/left" # download dtd dataset for this
 
 image_id = "000157_10"    # change if needed
