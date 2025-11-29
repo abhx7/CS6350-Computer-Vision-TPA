@@ -86,8 +86,34 @@ Outputs will be saved in the corresponding results folders.
 
 ---
 
-## 4. Running extract_predictions.ipynb
+## 4. Running `extract_predictions.ipynb`
 
+This notebook is used to run the **Dusk Till Dawn (DTD)** pretrained model on:
+
+- the **DTD dataset** (nighttime RobotCar sequences)
+- the **KITTI stereo dataset**
+
+It extracts predicted disparity maps and saves them for further comparison.
+
+### Steps
+
+1. Open the notebook:
+   jupyter notebook extract_predictions.ipynb
+
+2. Set the paths for pretrained DTD weights and dataset folders:
+
+   dtd_weights_path = "path/to/dtd_pretrained_weights.pth"  
+   dtd_dataset_path = "path/to/RobotCar/nighttime/"  
+   kitti_left_path = "/path/to/KITTI/image_2/"  
+   kitti_right_path = "/path/to/KITTI/image_3/"
+
+3. Select the mode to run:
+   - "robotcar" → runs DTD on nighttime RobotCar images  
+   - "kitti" → runs DTD on KITTI stereo pairs  
+
+4. Run all cells to generate:
+   - DTD disparity predictions  
+   - Visualization plots  
 
 
 ---
