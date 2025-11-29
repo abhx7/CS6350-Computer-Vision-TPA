@@ -144,10 +144,55 @@ file_path = "dtd_predictions_own.npy"  # runs DTD on KITTI stereo pairs
 4. Run all cells to generate:
 
 - DTD disparity predictions  
-- Visualization plots  
+- Visualization plots
 
----
+  ## 5. Running `depth_map_shallow_coarsetofine.ipynb`
 
-## 6. Notes
+This notebook is used to run the coarse-to-fine shallow method on:
+
+- the **KITTI stereo dataset** - https://www.cvlibs.net/datasets/kitti/index.php
+
+### Steps
+
+1. Open the notebook on Google colab:
+2. Set the paths for the dataset folders and replace it appropriately in the notebook:
+3. Refer to the following drive link for the data.
+   https://drive.google.com/drive/folders/1xaxIvqAM-m6qd-a72DRGYP6g3bg16MPU?usp=sharing
+
+   ## 6. Running 'Evaluation_KITTI_FNO.ipynb'
+
+This notebook is used to evaluate the FNO deep learning method on:
+
+- the **KITTI stereo dataset** - https://www.cvlibs.net/datasets/kitti/index.php
+
+### Steps
+
+1. Open the notebook on Google colab:
+2. Set the paths for the dataset folders and replace it appropriately in the notebook:
+3. Refer to the following drive link for the data.
+   https://drive.google.com/drive/folders/1xaxIvqAM-m6qd-a72DRGYP6g3bg16MPU?usp=sharing
+
+   The training files for this are in the lab system in the folder TPA2_Reva. The colab notebook uses the trained model.
+
+   Github repo for reference: https://github.com/neuraloperator/neuraloperator/tree/main/doc
+
+   ## 7. Running `Evaluation_KITTI_FastACVNet.ipynb`
+
+   This notebook is used to evaluate the Fast-ACVNet deep learning method on:
+
+- the **KITTI stereo dataset** - https://www.cvlibs.net/datasets/kitti/index.php
+
+### Steps
+
+1. Open the notebook on Google colab:
+2. Set the paths for the dataset folders and replace it appropriately in the notebook:
+3. Refer to the following drive link for the data.
+   https://drive.google.com/drive/folders/1xaxIvqAM-m6qd-a72DRGYP6g3bg16MPU?usp=sharing
+
+   The training files for this are in the lab system in the folder TPA2_Reva. The colab notebook uses the trained model.
+
+   Github repo for reference: https://github.com/gangweix/Fast-ACVNet
+
+## 8. Notes
 
 - Always update all paths before running.
