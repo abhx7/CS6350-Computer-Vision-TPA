@@ -121,10 +121,13 @@ jupyter notebook extract_predictions.ipynb
 2. Set the paths for pretrained DTD weights and dataset folders:
 
 ```yaml
-dtd_weights_path: "path/to/dtd_pretrained_weights.pth"
-dtd_dataset_path: "path/to/RobotCar/nighttime/"
-kitti_left_path: "/path/to/KITTI/image_2/"
-kitti_right_path: "/path/to/KITTI/image_3/"
+number_file = "datasets/robotcar/files/2014-12-16-18-44-24_numbered.txt" # custom folder present in this repo
+image_dir = "datasets/robotcar/2014-12-16-18-44-24/stereo/left" # download dtd dataset for this
+
+image_id = "000157_10"    # change if needed
+left_path = f"/path/to/KITTI/image_2/"
+right_path = f"/path/to/KITTI/image_3/"
+gt_path   = f"/path/to/KITTI/gt_path"
 ```
 
 3. Select the mode to run:
