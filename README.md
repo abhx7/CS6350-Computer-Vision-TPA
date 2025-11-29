@@ -101,7 +101,7 @@ Outputs will be saved in the corresponding results folders.
 
 ---
 
-## 4. Running `extract_predictions.ipynb`
+## 4. Running `extract_predictions_dtd.ipynb`
 
 This notebook is used to run the **Dusk Till Dawn (DTD)** pretrained model on:
 
